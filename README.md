@@ -1,11 +1,6 @@
 # SpotfiyTop100
-# This is the final report for our team’s database project. Our team chose to construct a database
-# that holds information about songs on Spotify. Songs have a lot of different categories and they
-# have a lot of attributes that allow us to build a database that we can then use to categorize and
-# analyze information about songs.
+This report encapsulates the culmination of a team's database project centered on creating a comprehensive Spotify songs database. The endeavor aimed to organize and analyze song data effectively, underpinning the interest in understanding song relationships and contributors. The project's focal point was a multi-faceted database design composed of eight interconnected tables, including Artist, Genres, Label, Producer, Songs, Copyright, Artists_Genres, and Song_Writers. The team diligently followed established methodologies to ensure proper data organization and coherence, as depicted in the ERD diagram.
 
-# Our idea was to build a database that would capture this information for a wide variety of songs
-# so that we could quickly learn information about songs and to run queries that let us answer
-# questions about how songs are related and how certain people are involved in multiple songs.
-# We chose this topic because it interested us and it allowed us to use a database to answer
-# questions of interest that we had about how different songs are related
+The database's physical design targeted information about the top 20 artists on Spotify's playlist. This initiative catered not only to music industry professionals, offering insights into artist-producer dynamics, but also encompassed music enthusiasts curious about artist collaborations and trends. Utilizing data from Spotify's Top Charts, the project's foundation was constructed upon the top 20 most-listened-to songs, each manually integrated with crucial information like artist names, producers, genres, and release dates.
+
+The project also crafted five distinct views, each serving a specific query. These views facilitate users in exploring topics like songs within the hip-hop genre, songs by specific producers, recent releases, artist-specific information, and self-written songs by artists. Though some initial plans shifted, such as the choice of sample data from hypothetical to actual Spotify top 20 lists, the core mission remained steadfast. Inclusivity, ethical considerations, and lessons learned during the process were integral aspects of the project. This endeavor holds potential for future expansion, enhancing music discovery and insights on a broader scale.
